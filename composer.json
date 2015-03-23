@@ -1,0 +1,27 @@
+{
+    "name": "airani/yii2-bootstrap-rtl",
+    "description": "The Twitter Bootstrap Rtl extension for the Yii 2.0 framework",
+    "keywords": ["yii2", "bootstrap", "rtl"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/airani/yii2-bootstrap-rtl/issues",
+        "source": "https://github.com/airani/yii2-bootstrap-rtl"
+    },
+    "authors": [
+        {
+            "name": "Ali Irani",
+            "email": "ali@irani.im"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*",
+        "bower-asset/bootstrap-rtl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "airani\\bootstrap\\": ""
+        }
+    }
+}
